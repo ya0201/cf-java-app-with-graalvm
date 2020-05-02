@@ -1,0 +1,5 @@
+applications:
+- name: hello-spring-boot
+  path: target/hello-spring-boot-0.0.1-SNAPSHOT.jar
+  buildpacks:
+  - java_buildpack_offline
